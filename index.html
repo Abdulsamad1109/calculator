@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="up">
+            <div id="ad"><h1 id="ans-display"></h1></div>
+            <input id="input" placeholder="0" disabled>
+        </div>
+        <div id="down">
+            <div id="modes">
+                <span onclick="normal()" id="norm-mode"><b> NORMAL</b></span>
+                <span onclick="scientific()" id="sci-mode"><b> SCIENTIFIC</b></span>
+            </div>
+            <hr id="hr">
+            <div id="sci-btn">
+                <div id="row1-btn">
+                    <button>Abs</button>
+                    <button>x<sup>3</sup></button>
+                    <button id="less"><</button>
+                    <button id="great">></button>
+                    <button onclick="raiseTpow()">x<sup>2</sup></button>
+                    <button>x<sup>0</sup></button>
+                </div>
+
+                <div id="row2-btn">
+                    <button onclick="sqr()">sqrt</button>
+                    <button>log</button>
+                    <button>sin</button>
+                    <button>cos</button>
+                    <button>in</button>
+                    <button>tan</button>
+                </div>
+
+                <div id="row3-btn">
+                    <button>hyp</button>
+                    <button>(</button>
+                    <button>)</button>
+                    <button>M+</button>
+                    <button>M-</button>
+                    <button onclick="percent()">%</button>
+                </div>
+            </div>
+
+            <!-- <div id="sci-btn">
+                <div id="row1-btn">
+                    <button>Abs</button>
+                    <button>x<sup>3</sup></button>
+                    <button id="less"><</button>
+                    <button id="great">></button>
+                    <button>x<sup>2</sup></button>
+                    <button>x<sup>0</sup></button>
+                </div>
+
+                <div id="row2-btn">
+                    <button>sqrt</button>
+                    <button>log</button>
+                    <button>sin</button>
+                    <button>cos</button>
+                    <button>in</button>
+                    <button>tan</button>
+                </div>
+
+                <div id="row3-btn">
+                    <button>hyp</button>
+                    <button>(</button>
+                    <button>)</button>
+                    <button>M+</button>
+                    <button>M-</button>
+                    <button>%</button>
+                </div>
+            </div> -->
+
+            <div id="norm-btn">
+                <div id="row4-btn">
+                    <button onclick="press(7)">7</button>
+                    <button onclick="press(8)">8</button>
+                    <button onclick="press(9)">9</button>
+                    <button onclick="del()">Del</button>
+                    <button onclick="clearAll()">AC</button>
+                </div>
+
+                <div id="row5-btn">
+                    <button onclick="press(4)">4</button>
+                    <button onclick="press(5)">5</button>
+                    <button onclick="press(6)">6</button>
+                    <button onclick="press('*')">x</button>
+                    <button onclick="press('/')">/</button>
+                </div>
+
+                <div id="row6-btn">
+                    <button onclick="press(1)">1</button>
+                    <button onclick="press(2)">2</button>
+                    <button onclick="press(3)">3</button>
+                    <button onclick="press('+')">+</button>
+                    <button onclick="press('-')">-</button>
+                </div>
+
+                <div id="row7-btn">
+                    <button onclick="press(0)">0</button>
+                    <button onclick="press('.')">.</button>
+                    <button id="no-btn"></button>
+                    <button onclick="equalto()">Ans</button>
+                    <button onclick="equalto()">=</button>
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-left: 600px; */
+    display: flex;
+}
+
+#main{
+    margin: 0 auto;
+}
+
+#up{
+    background-color: coral;
+    width: 62%;
+    height: 30vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#ad{
+    background-color: coral;
+    width: 80%;
+    height: 30%;
+    margin-left: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    /* border: 3px solid red; */
+}
+
+
+#input{
+    background-color: coral;
+    width: 100%;
+    height: 20%;
+    margin-top: 100px;
+    /* position: relative; */
+    /* top: 80%; */
+    color: #ffff;
+    border: none;
+    font-size: 30px;
+    text-align: right;
+}
+
+::placeholder{
+    text-align: right;
+    color: white;
+}
+
+#down{
+    background-color: yellow;
+    width: 62%;
+    height: 50vh;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#norm-mode{
+    font-size: 12px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+#sci-mode{
+    font-size: 12px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+#sci-btn{
+    display: none;
+}
+
+button{
+    /* color: white; */
+    width: 15%;
+    height: 5vh;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px coral;
+}
+
+button:hover{
+    background-color: rgb(240, 71, 10);
+}
+
+#hr{
+    color: white;
+}
+
+#row1-btn, #row2-btn, #row3-btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* display: none; */
+    /* border: 1px solid red; */
+    
+}
+
+#norm-btn{
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+#row4-btn, #row5-btn, #row6-btn, #last2, #row7-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+#no-btn{
+    cursor: auto;
+    background-color: yellow;
+    border: none;
+    box-shadow: none;
+}
