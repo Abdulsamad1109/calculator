@@ -1,10 +1,9 @@
 var display = document.getElementById("input");
-console.log(display)
+
 
 
 function press(e){
     display.value += e;
-    // document.getElementById("input").value +=e
     
 }
 
